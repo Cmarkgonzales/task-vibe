@@ -1,13 +1,18 @@
-import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Landing from './pages/Landing'
+import Auth from './pages/Auth'
 
 function App() {
-  return (
-    <>
-        <div className="flex items-center justify-center min-h-screen bg-gray-100">
-        <h1 className="text-4xl font-bold text-blue-600">Welcome to TaskVibe 🚀</h1>
-        </div>
-    </>
-  )
+    return (
+        <>
+            <Router>
+                <Routes>
+                    <Route path="/" element={<Landing />} />
+                    <Route path="/auth" element={<Auth />} />
+                </Routes>
+            </Router>
+        </>
+    )
 }
 
 export default App
