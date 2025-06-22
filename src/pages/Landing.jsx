@@ -42,7 +42,7 @@ const Landing = () => {
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
                             <button className="bg-white text-primary hover:bg-white/90 px-6 py-3 rounded-lg font-semibold shadow-lg transition-all">
-                                Get Started Free
+                                Get Started
                             </button>
                             <button className="bg-white/20 hover:bg-white/30 px-6 py-3 rounded-lg font-medium transition-all">
                                 See Demo
@@ -144,7 +144,7 @@ const Landing = () => {
                         Join thousands of users who have discovered the power of mood-based task management.
                     </p>
                     <button className="bg-white text-primary hover:bg-white/90 px-8 py-3 rounded-lg font-semibold shadow-lg transition-all text-lg">
-                        Get Started Free
+                        Get Started
                     </button>
                 </div>
             </section>
