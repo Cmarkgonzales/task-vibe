@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import { AnimatePresence, motion } from 'framer-motion';
 import Icon from '../components/generics/Icon'
+import { Link } from 'react-router-dom';
 
 const Auth = () => {
   const [isLogin, setIsLogin] = useState(true);
@@ -69,7 +70,7 @@ const Auth = () => {
                     </a>
                   </div>
                 </div>
-                <button className="w-full bg-accent text-white py-2 rounded-md hover:bg-accent/90 transition">Log In</button>
+                <Link to="/dashboard" className="w-full bg-accent text-white py-2 rounded-md hover:bg-accent/90 transition">Log In</Link>
                 {loginSuccess && <p className="mt-4 text-green-600 text-sm">Login successful! Redirecting...</p>}
               </motion.div>
             ) : (

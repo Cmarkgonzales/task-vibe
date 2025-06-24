@@ -116,9 +116,25 @@
     .btn-primary:hover {
         background-color: var(--color-accent);
     }
+
+    .btn-secondary {
+        background-color: var(--color-secondary);
+        color: var(--color-text);
+    }
+    .btn-secondary:hover {
+        background-color: var(--color-primary-light);
+    }
     .priority-high {
         border-left: 4px solid var(--color-danger);
     }
+
+    .progress-bar {
+        background-color: var(--color-secondary);
+    }
+    .progress-value {
+        background-color: var(--color-primary);
+    }
+
     .priority-medium {
         border-left: 4px solid var(--color-warning);
     }
