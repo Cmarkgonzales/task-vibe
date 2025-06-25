@@ -11,8 +11,8 @@ const Navbar = () => {
                     <h1 class="text-2xl font-bold text-text">TaskVibe</h1>
                 </div>
                 <div class="flex items-center space-x-4">
-                    <Link id="loginBtn" to="/auth" class="px-4 py-2 text-primary font-medium hover:text-accent transition-colors">Log In</Link>
-                    <button id="signupBtn" class="btn-primary px-4 py-2 rounded-lg shadow-sm">Sign Up</button>
+                    <Link to="/auth" class="px-4 py-2 text-primary font-medium hover:text-accent transition-colors">Log In</Link>
+                    <button class="btn-primary px-4 py-2 rounded-lg shadow-sm">Sign Up</button>
                 </div>
             </div>
         </nav>
